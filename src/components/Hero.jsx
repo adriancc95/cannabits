@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import heroBg from '../assets/hero-bg.png';
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -33,7 +34,7 @@ const Hero = () => {
           left: 0;
           width: 100%;
           height: 100%;
-          background: radial-gradient(circle at center, rgba(11,9,10,0.4) 0%, rgba(11,9,10,1) 100%), url('/src/assets/hero-bg.png');
+          background: radial-gradient(circle at center, rgba(11,9,10,0.4) 0%, rgba(11,9,10,1) 100%), url(${heroBg});
           background-size: cover;
           background-position: center;
           z-index: -1;

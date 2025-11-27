@@ -1,3 +1,7 @@
+import blogIot from '../assets/blog-iot.png';
+import blogLight from '../assets/blog-light.png';
+import blogHydro from '../assets/blog-hydro.png';
+
 export const blogPosts = [
   {
     id: 1,
@@ -5,7 +9,7 @@ export const blogPosts = [
     titleKey: 'blog.posts.iot.title',
     descKey: 'blog.posts.iot.desc',
     contentKey: 'blog.posts.iot.content',
-    image: '/src/assets/blog-iot.png',
+    image: blogIot,
     date: '2025-01-15',
     author: 'Dr. Maria Santos'
   },
@@ -15,7 +19,7 @@ export const blogPosts = [
     titleKey: 'blog.posts.light.title',
     descKey: 'blog.posts.light.desc',
     contentKey: 'blog.posts.light.content',
-    image: '/src/assets/blog-light.png',
+    image: blogLight,
     date: '2025-01-10',
     author: 'James Chen'
   },
@@ -25,7 +29,7 @@ export const blogPosts = [
     titleKey: 'blog.posts.hydro.title',
     descKey: 'blog.posts.hydro.desc',
     contentKey: 'blog.posts.hydro.content',
-    image: '/src/assets/blog-hydro.png',
+    image: blogHydro,
     date: '2025-01-05',
     author: 'Alex Rivera'
   }
